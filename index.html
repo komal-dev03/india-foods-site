@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian Food Culture - Statewise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff9933;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .state-section {
+            background: white;
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .food-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 15px;
+        }
+        .food-item {
+            background: #fff7e6;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+        }
+        .food-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #138808;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Indian Food Culture - Statewise</h1>
+        <p>Explore Indian foods by clicking the dishes</p>
+    </header>
+
+    <!-- Punjab Section -->
+    <div class="state-section">
+        <h2>Punjab</h2>
+        <div class="food-grid">
+            <a href="punjab-sarson.html" class="food-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sarson_Da_Saag.jpg/640px-Sarson_Da_Saag.jpg" alt="Sarson da Saag" />
+                <p>Makki di Roti & Sarson da Saag</p>
+            </a>
+            <a href="punjab-chole.html" class="food-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Chole_Bhature_from_New_Delhi.jpg/640px-Chole_Bhature_from_New_Delhi.jpg" alt="Chole Bhature" />
+                <p>Chole Bhature</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Gujarat Section -->
+    <div class="state-section">
+        <h2>Gujarat</h2>
+        <div class="food-grid">
+            <a href="gujarat-dhokla.html" class="food-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Dhokla%2C_Gujarat%2C_India.jpg/640px-Dhokla%2C_Gujarat%2C_India.jpg" alt="Dhokla" />
+                <p>Dhokla</p>
+            </a>
+            <a href="gujarat-thepla.html" class="food-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Thepla.jpg/640px-Thepla.jpg" alt="Thepla" />
+                <p>Thepla</p>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by a First Semester Student • Explore India's Flavors!</p>
+    </footer>
+</body>
+</html>
